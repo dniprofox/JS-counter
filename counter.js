@@ -39,6 +39,11 @@ var counter = (function(){
 			_number--;
 	}
 
+	var printCounter = function(){
+
+		console.log(_number);
+		
+
 	return {
 
 		setNumber,
